@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: #1b4436;
+    display: flex;
+    font-family: 'Quicksand';
+}
+
+.Inicio, .menutitulo, .menu{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 20px;
+    
+
+}
+.Inicio{
+    margin-left: 100px;
+}
+
+
+.meio{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: 'Quicksand';
+    background: rgba(34, 82, 67, 0.8);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .simbolo{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 610px;
+    top: 40px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .text-container {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+  }
+
+  
+
+
+.container {
+    
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+    text-shadow: 1px 1px 2px rgb(252, 250, 250);   
+}
+
+.box-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 20px;
+    position: relative;
+}
+
+.box-imagem img {
+    border: 1px solid green;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.box-imagem h1{
+    white-space: nowrap;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-family: 'Quicksand';
+    line-height: 40px;
+   
+   
+}
+
+.box-imagem p {
+    font-family: 'Quicksand';
+    max-width: 387px;
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.botao {
+    height: 44px;
+    width: 389px;
+    background: #50AA5A;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid green
+}
+
+.botao p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+}
+@media (max-width: 768px) {
+    .box-imagem {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  @media (max-width: 480px) {
+    .box-imagem {
+      flex-basis: 100%;
+    }
+  }

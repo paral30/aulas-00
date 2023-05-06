@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary : #50aa5a;
+    --primaryDark: #3f8848;
+}
+.card{
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+    max-width: 387px;
+    max-height: 390px;
+}
+
+.card_title{
+    text-align: center;
+    text-shadow: 0px 4px 4px #ffff;
+    position: absolute;
+}
+
+.cards{
+
+}
+
+.container_cards{
+    
+}
