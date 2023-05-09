@@ -1,0 +1,18 @@
+1:
+*A classe é uma espécie de modelo ou molde para criar objetos com características e comportamentos específicos.
+O objeto é uma instância de uma classe.
+A diferença entre classe e objeto é que a classe é uma estrutura abstrata, e o objeto é uma instância concreta dessa classe,com seus próprios valores para os atributos.
+
+2: 
+*Atributos, também conhecidos como propriedades ou variáveis de instância, são as características que definem o estado de um objeto. Eles representam os dados que um objeto possui e são armazenados em variáveis associadas a esse objeto. Por exemplo, uma classe "Pessoa" pode ter atributos como "nome", "idade", "sexo" e "endereço".
+*Métodos, por outro lado, são as ações que um objeto pode executar. Eles definem o comportamento de um objeto e podem ser usados para alterar seus atributos ou realizar outras tarefas. Por exemplo, uma classe "Pessoa" pode ter métodos como "andar", "correr", "falar" ou "trabalhar".
+
+3:
+*É um conceito que define o funcionamento dos métodos em uma espécie de "caixa preta",onde não é necessario conhecer a forma de implementação de um método,apenas o que ele retorna e o que recebe de parâmetros.Em uma classe, o encapsulamento é implementado usando modificadores de acesso, que definem o nível de visibilidade dos membros da classe.
+
+4:
+*Nome, Dono, Raça, Idade, Peso. São atributos,pois são informações que os objetos da classe possuem.
+Latir, Correr. São métodos,pois são ações que os objetos da classe podem fazer.
+
+
+
